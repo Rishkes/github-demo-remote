@@ -1,15 +1,15 @@
-#Add implementation
+#Add 
 def add(x,y):
 	return x+y
-#subtract implementation
+#subtract 
 def subtract(x,y):
 	return x-y       #on master branch
-#multiply implementation
+#multiply 
 def multiply(x,y):
 	return x*y      #on Bug456 branch
 
 
-#divide implementation         #on master branch
+#divide         #on master branch
 def divide(x,y):
 	if y==0:
 		return DIVIDE_BY_0_ERROR
