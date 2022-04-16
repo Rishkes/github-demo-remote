@@ -10,5 +10,9 @@ def multiply(x,y):
 
 
 #divide         #on master branch
-
+def divide(x,y):
+	if y==0:
+		return DIVIDE_BY_0_ERROR
+	else:
+		return x/y
 
